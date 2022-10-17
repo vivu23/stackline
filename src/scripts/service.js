@@ -21,7 +21,6 @@ export function fetchData() {
     return axios
       .get('http://myjson.dit.upm.es/api/bins/hfsw')
       .then(res => {
-        console.log(res);
         const data = JSON.parse(res.request.response)[0];
         return dispatch(fetchAction(data));
       })

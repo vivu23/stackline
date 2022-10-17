@@ -1,0 +1,18 @@
+#table {
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+table th {
+  padding: 2%;
+  font-weight: 300;
+}
+tbody td {
+  border-top: 2px solid var(--light-gray);
+  padding: 2%;
+}
+th:hover {
+  cursor: pointer;
+}

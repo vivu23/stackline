@@ -1,0 +1,36 @@
+#product img {
+    height: 100%;
+    width: 100%;
+  }
+#title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2%;
+  }
+  #subtitle {
+    text-align: center;
+    font-weight: 300;
+    color: grey;
+    padding: 2%;
+  }
+  #spans {
+    text-align: center;
+  }
+  .tags {
+    border: 2px solid;
+    border-color: lightgrey;
+    border-radius: 5px;
+    padding: 2%;
+    margin: 2%;
+    display: inline-block;
+  }
+  #product a {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  #product hr {
+    background-color: lightgray;
+    height: 2px;
+    border: 0;
+  }

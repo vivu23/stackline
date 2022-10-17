@@ -1,0 +1,36 @@
+.grid{
+  display: grid;
+  min-height: 100%;
+  grid-template-areas: "header header" "product graph" "product table";
+}
+
+.header{
+  grid-area: header;
+  text-align: left;
+  color: black;
+}
+.product {
+  grid-area: product;
+  border-left: 20px solid lightgrey;
+  border-right: 10px solid lightgrey;
+  border-top: 100px solid lightgrey;
+  border-bottom: 50px solid lightgrey;
+}
+
+.graph {
+  grid-area: graph;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 10px solid lightgrey;
+  border-right: 20px solid lightgrey;
+  border-top: 100px solid lightgrey;
+  border-bottom: 30px solid lightgrey
+}
+
+.table{
+  grid-area: table;
+  border-left: 10px solid lightgrey;
+  border-right: 20px solid lightgrey;
+  border-bottom: 50px solid lightgrey;
+}

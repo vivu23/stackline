@@ -15,12 +15,13 @@ export const fetchAction = data => {
   };
 };
 
-//Uploaded 'stackline_frontend_assessment_data_2021.json' to myjson.com
+//Uploaded 'stackline_frontend_assessment_data_2021.json' to m
 export function fetchData() {
   return dispatch => {
     return axios
-      .get('http://myjson.dit.upm.es/api/bins/hfsw')
+      .get('https://myjson.dit.upm.es/api/bins/hfsw')
       .then(res => {
+        console.log(res);
         const data = JSON.parse(res.request.response)[0];
         return dispatch(fetchAction(data));
       })

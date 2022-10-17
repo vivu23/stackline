@@ -1,5 +1,7 @@
-Public URL to the assessment
-## TO RUN THE ASSESSMENT LOCALLY
+## Public URL to the Assessment : https://main.d37qjwztoj47h8.amplifyapp.com/
+
+
+## To run the assessment locally
 Clone the repo then in the project directory, you can run:
 
 ### `npm start`
